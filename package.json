@@ -1,0 +1,25 @@
+{
+  "name": "wsdrag",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "unpkg": "./dist",
+  "license": "MIT",
+  "scripts": {
+    "doc:dev": "umi-lib doc dev",
+    "doc:build": "umi-lib doc build",
+    "build": "umi-lib build"
+  },
+  "devDependencies": {
+    "umi-library": "^1.6.0"
+  },
+  "dependencies": {
+    "classname": "^0.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.9.17"
+  },
+  "files": [
+    "dist"
+  ]
+}
