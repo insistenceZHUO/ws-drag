@@ -1,14 +1,5 @@
-import React from "react";
-import classname from "classname";
-import styles from "./index.module.less";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import WsDrag from './components/wsdrag';
 
-export default function(props) {
-  return (
-    <button
-      className={classname(styles.largr, styles.bold)}
-      style={{ color: props.color }}
-    >
-      {props.children}
-    </button>
-  );
-}
+export default WsDrag;

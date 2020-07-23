@@ -1,6 +1,6 @@
 {
   "name": "wsdrag",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
   "unpkg": "./dist",
@@ -11,13 +11,16 @@
     "build": "umi-lib build"
   },
   "devDependencies": {
+    "docz": "^2.3.1",
+    "docz-theme-default": "^1.2.0",
     "umi-library": "^1.6.0"
   },
   "dependencies": {
-    "classname": "^0.0.0"
+    "sortablejs": "^1.10.2"
   },
   "peerDependencies": {
-    "react": "^16.9.17"
+    "react": "^16.9.17",
+    "react-dom": "^16.13.1"
   },
   "files": [
     "dist"

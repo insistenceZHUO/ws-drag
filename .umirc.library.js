@@ -1,13 +1,10 @@
 export default {
-  esm: "rollup",
-  cjs: "rollup",
+  esm: 'rollup',
+  cjs: 'rollup',
   umd: {
-    name: "foo",
+    name: 'foo',
     globals: {
-      react: "React",
-      globals: {
-        react: "React",
-      },
+      react: 'React',
     },
   },
 };
