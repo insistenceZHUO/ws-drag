@@ -1,7 +1,11 @@
 # ws-drag
 
 
-####### 一框基于react的的拖住组件，只需要简单的几代码，就能够实现拖拽交换数组的位置，无需繁琐的配置。
+####### 一框基于react的的拖住组件，只需要简单的几代码，就能够实现拖拽交换数组的位置，无需繁琐的配置。 
+
+####### https://codesandbox.io/s/github/react-dnd/react-dnd/tree/gh-pages/examples_hooks_js/04-sortable/cancel-on-drop-outside?from-embed=&file=/src/Card.jsx
+
+####### 上面是用react-dnd实现的效果，需要大量的代码，以及配置，使用wsdrag，仅仅只需要5行代码，就可以实现
 
 ## 安装方式：
 ```
@@ -10,7 +14,7 @@
  ```
 ## 使用方式：
  ```
- 
+ You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
 
 import React, { useState } from 'react';
 
@@ -38,5 +42,5 @@ function parent() {
       </WsDrag>
     </ul>
   )
-   ```
 }
+```
