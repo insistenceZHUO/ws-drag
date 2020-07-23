@@ -4,12 +4,14 @@
 ####### 一框基于react的的拖住组件，只需要简单的几代码，就能够实现拖拽交换数组的位置，无需繁琐的配置。
 
 ## 安装方式：
-
+```
   npm install wsdrag
   
- 
+ ```
 ## 使用方式：
+ ```
  
+
 import React, { useState } from 'react';
 
 const data = [
@@ -36,4 +38,5 @@ function parent() {
       </WsDrag>
     </ul>
   )
+   ```
 }
