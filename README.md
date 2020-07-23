@@ -5,7 +5,7 @@
 
 ####### https://codesandbox.io/s/github/react-dnd/react-dnd/tree/gh-pages/examples_hooks_js/04-sortable/cancel-on-drop-outside?from-embed=&file=/src/Card.jsx
 
-####### 上面是用react-dnd实现的效果，需要大量的代码，以及配置，使用wsdrag，仅仅只需要5行代码，就可以实现
+####### 上面是用react-dnd实现的效果，需要大量的代码，以及配置，使用wsdrag，仅仅只需要几行代码，就可以实现，现在就让我们来体验下吧
 
 ## 安装方式：
 ```
