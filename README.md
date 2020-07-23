@@ -1,10 +1,10 @@
 # ws-drag
 
-# 安装方式：
+## 安装方式：
   npm install wsdrag
   
  
- # 使用方式：
+ ### 使用方式：
  
 import React, { useState } from 'react';
 
